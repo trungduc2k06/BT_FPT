@@ -60,6 +60,7 @@ void ThiSinh::nhapThongTin()
     cout << "___________ Nhap thong tin thi sinh:___________" << endl;
     cout << "Nhap so bao danh: ";   
     getline(cin, m_soBaoDanh);
+    cin.ignore(32767, '\n');
     cout << "Nhap ho va ten: ";     
     getline(cin, m_hoTen);
     cout << "Nhap dia chi: ";       
